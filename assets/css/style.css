@@ -16,12 +16,27 @@
 	width: 150px;
 
 }*/
+body {
+	background-color: grey;
+}
+
+header {
+	background-color: white;
+	height: 50px;
+}
+
+section {
+	width: 50%;
+	background-color: yellow;
+	margin-left: 75px;
+	
+}
 
 .name {
 	height: 50px;
 	width: 150px;
 	margin-right: 300px;
-	padding:20px;
+	padding:10px;
 	background-color: blue;
 	color: white;
 }
@@ -38,4 +53,26 @@ nav { /*this affects the ul, why?*/
 li {
 
 	display: inline;
+}
+
+.contentHead {
+	text-align: left;
+	font-size: 50px;
+	color: blue;
+	background-color: white;
+	margin-top: 50px;
+	border-bottom: 10px;/* where's the border?*/
+	border-color: black;
+}
+
+img {
+
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+
+}
+
+p {
+	display: inline-flex;
 }
