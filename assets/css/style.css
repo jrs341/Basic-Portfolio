@@ -29,6 +29,7 @@ section {
 	width: 50%;
 	background-color: yellow;
 	margin-left: 75px;
+	display: inline-block;/*added yellow background to margin?*/
 	
 }
 
@@ -67,12 +68,45 @@ li {
 
 img {
 
-	display: inline-block;
+	display: inline;
+	margin: 20px;
 	height: 200px;
 	width: 200px;
 
 }
 
 p {
-	display: inline-flex;
+	display: inline;
+	/*clear: left;
+	float: right;*/
+
+}
+
+aside {
+	/*height: 200px;
+	width: 200px;
+	display: inline-block;*/
+	float: right;
+}
+/*aside > li {
+	height: 50px;
+	width: 50px;
+}*/
+
+table {
+	margin-right: 50px;
+	background-color: white;
+	height: 100px;
+	width: 150px;
+}
+
+th {
+	color: blue;
+	background-color: white;
+
+}
+.social {
+	height: 50px;
+	width: 50px;
+	margin: 5px;
 }
