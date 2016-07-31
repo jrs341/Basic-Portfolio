@@ -16,8 +16,33 @@
 	width: 150px;
 
 }*/
+html, body {
+	height: 100%;
+}
+
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: -100px;/*must be equal to footer height*/
+}
+
+.page-wrap:after {
+	content:"";
+	display: block;
+}
+
+.site-footer, .page-wrap:after {
+	height:100px;
+}
+
+.site-footer {
+	background: brown;
+}
+
 body {
 	background-color: grey;
+	border:none;
+	margin:0px;
+	padding:none;
 }
 
 header {
@@ -100,13 +125,29 @@ table {
 	width: 150px;
 }
 
+tbody {
+	padding: 20px;
+}
+
 th {
 	color: blue;
 	background-color: white;
+	padding: 20px;
+
+}
+
+tr {
 
 }
 .social {
 	height: 50px;
 	width: 50px;
 	margin: 5px;
+}
+
+footer {
+	/*background-color: brown;
+	text-align: center;
+	height: 50px;*/
+
 }
