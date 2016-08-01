@@ -149,10 +149,12 @@ aside {
 	width: 150px;
 }
 
-.portTable
-{
-
+.portTable {
+	margin-right: auto;
+	margin-left: auto;
 }
+
+
 
 tbody {
 	padding: 20px;
