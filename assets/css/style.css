@@ -118,11 +118,16 @@ aside {
 	width: 50px;
 }*/
 
-table {
+.connectTable {
 	margin-right: 50px;
 	background-color: white;
 	height: 100px;
 	width: 150px;
+}
+
+.portTable
+{
+	
 }
 
 tbody {
@@ -136,13 +141,15 @@ th {
 
 }
 
-tr {
-
-}
 .social {
 	height: 50px;
 	width: 50px;
 	margin: 5px;
+}
+
+.imgPort {
+	height: 100px;
+	width: 100px;
 }
 
 footer {
