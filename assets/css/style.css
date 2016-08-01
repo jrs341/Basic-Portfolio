@@ -127,7 +127,7 @@ aside {
 
 .portTable
 {
-	
+
 }
 
 tbody {
@@ -153,8 +153,8 @@ th {
 }
 
 footer {
-	/*background-color: brown;
+	/*background-color: brown;*/
 	text-align: center;
-	height: 50px;*/
+	margin-top: 75px;
 
 }
