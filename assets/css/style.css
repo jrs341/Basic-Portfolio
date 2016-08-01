@@ -18,11 +18,12 @@
 }*/
 html, body {
 	height: 100%;
+	width: 960px;
 }
 
 .page-wrap {
 	min-height: 100%;
-	margin-bottom: -100px;/*must be equal to footer height*/
+	margin-bottom: -75px;/*must be equal to footer height*/
 }
 
 .page-wrap:after {
@@ -31,7 +32,7 @@ html, body {
 }
 
 .site-footer, .page-wrap:after {
-	height:100px;
+	height:75px;
 }
 
 .site-footer {
@@ -55,12 +56,13 @@ header {
 	position: relative;
 	margin-top: 0px;
 	background-color: white;
+	padding-bottom: 4px;
 }
 
 section {
-	width: 50%;
+	width: 650px;
 	background-color: yellow;
-	margin-left: 75px;
+	margin-left: 13.33px;
 	display: inline-block;/*added yellow background to margin?*/
 	
 }
@@ -68,8 +70,8 @@ section {
 .name {
 	height: 50px;
 	width: 150px;
-	margin-right: 300px;
-	padding:10px;
+	margin-right: 350px;
+	padding:20px;
 	background-color: blue;
 	color: white;
 }
@@ -88,6 +90,7 @@ nav {
 ul {
 	position: relative;
 	margin-top: 30px;
+	margin-right: 30px;
 	
 }
 
@@ -97,12 +100,17 @@ li {
 	display: inline;
 }
 
+/*.navButtons {
+	float: right;
+
+}*/
+
 .contentHead {
 	text-align: left;
 	font-size: 50px;
 	color: blue;
 	background-color: white;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	border-bottom: 4px solid black;
 	
 }
@@ -124,9 +132,9 @@ p {
 }
 
 aside {
-	/*height: 200px;
-	width: 200px;
-	display: inline-block;*/
+	/*height: 200px;*/
+	width: 270px;
+	/*display: inline-block;*/
 	float: right;
 }
 /*aside > li {
@@ -167,6 +175,16 @@ th {
 .imgPort {
 	height: 100px;
 	width: 100px;
+}
+
+form {
+	display: block;
+	width: 450px;
+	height: 450px;
+}
+.form {
+	display: block;
+	margin:10px;
 }
 
 footer {
