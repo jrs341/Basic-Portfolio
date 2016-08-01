@@ -51,6 +51,12 @@ header {
 	border-bottom: 4px solid black;
 }
 
+.siteHeader {
+	position: relative;
+	margin-top: 0px;
+	background-color: white;
+}
+
 section {
 	width: 50%;
 	background-color: yellow;
@@ -68,12 +74,21 @@ section {
 	color: white;
 }
 
-nav { /*this affects the ul, why?*/
-	display: inline-block;
+nav { 
+	padding: 10px;
+	border-bottom: 2px solid black;
+	margin-bottom: 20px;
+	/*display: inline-block;
 	/*float: right;
 	margin-right: 150px;
 	/*position: relative;*/
 
+}
+
+ul {
+	position: relative;
+	margin-top: 30px;
+	
 }
 
 
