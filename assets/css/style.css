@@ -1,21 +1,4 @@
-/*header{
-	display: inline-block;
-	background-color: blue;
-	margin-left: 150px;
-	/*height: 50px;
-	width: 150px;
-	color: white;
-	text-align: center;
-}*/
 
-/*ul: first-child {
-
-	float: left;
-	font-size: 20px;
-	height: 50px;
-	width: 150px;
-
-}*/
 html, body {
 	height: 100%;
 	width: 960px;
@@ -63,14 +46,14 @@ section {
 	width: 650px;
 	background-color: yellow;
 	margin-left: 13.33px;
-	display: inline-block;/*added yellow background to margin?*/
+	display: inline-block;
 	
 }
 
 .name {
 	height: 50px;
 	width: 150px;
-	margin-right: 350px;
+	margin-right: 550px;
 	padding:20px;
 	background-color: blue;
 	color: white;
@@ -80,11 +63,7 @@ nav {
 	padding: 10px;
 	border-bottom: 2px solid black;
 	margin-bottom: 20px;
-	/*display: inline-block;
-	/*float: right;
-	margin-right: 150px;
-	/*position: relative;*/
-
+	
 }
 
 ul {
@@ -96,14 +75,10 @@ ul {
 
 
 li {
-	margin: 20px;
+	margin: 12px;
 	display: inline;
 }
 
-/*.navButtons {
-	float: right;
-
-}*/
 
 .contentHead {
 	display: block;
@@ -111,13 +86,11 @@ li {
 	font-size: 50px;
 	color: blue;
 	background-color: white;
-	/*margin-top: 50px;*/
 	border-bottom: 4px solid black;
 	
 }
 
 img {
-	/*display: inline-block;*/
 	float: left;
 	margin: 20px;
 	height: 200px;
@@ -125,8 +98,7 @@ img {
 
 }
 
-p {
-	/*display: inline-block;*/
+.aboutPara{
 	padding: 10px;
 	clear: left;
 	float: right;
@@ -134,15 +106,9 @@ p {
 }
 
 aside {
-	/*height: 200px;*/
 	width: 270px;
-	/*display: inline-block;*/
 	float: right;
 }
-/*aside > li {
-	height: 50px;
-	width: 50px;
-}*/
 
 .connectTable {
 	margin-right: 50px;
@@ -177,10 +143,35 @@ th {
 }
 
 .imgPort {
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 }
 
+.bannerPort{
+	position: relative;
+	font-size: 10px;
+	height: 30px;
+	width: 150px;
+	margin-top: 136px;
+	margin-left: 20px;
+	background-color: blue;
+
+}
+#hangMan {
+	
+}
+#RPGgame {
+	
+}
+#triviaGame {
+	
+}
+#rutgersInfoWidget {
+	
+}
+#rockPaperScissors {
+	
+}
 form {
 	display: block;
 	width: 450px;
@@ -192,7 +183,6 @@ form {
 }
 
 footer {
-	/*background-color: brown;*/
 	text-align: center;
 	margin-top: 75px;
 	border-top: 4px solid black;
