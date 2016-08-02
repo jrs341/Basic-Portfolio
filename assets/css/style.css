@@ -54,9 +54,9 @@ header {
 
 .siteHeader {
 	position: relative;
-	margin-top: 0px;
+	margin-top: -19px;
 	background-color: white;
-	padding-bottom: 4px;
+	padding-bottom: 21px;
 }
 
 section {
@@ -106,6 +106,7 @@ li {
 }*/
 
 .contentHead {
+	display: block;
 	text-align: left;
 	font-size: 50px;
 	color: blue;
@@ -116,8 +117,8 @@ li {
 }
 
 img {
-
-	display: inline;
+	/*display: inline-block;*/
+	float: left;
 	margin: 20px;
 	height: 200px;
 	width: 200px;
@@ -125,9 +126,10 @@ img {
 }
 
 p {
-	display: inline;
-	/*clear: left;
-	float: right;*/
+	/*display: inline-block;*/
+	padding: 10px;
+	clear: left;
+	float: right;
 
 }
 
