@@ -2,6 +2,7 @@
 html, body {
 	height: 100%;
 	width: 960px;
+	background-image: url('assets/images/ricepaper_v3.png');
 	/*background-color: #ff5700;*/
 	/*background-image: url(http://subtlepatterns.com/old-map/);*/
 
@@ -52,8 +53,6 @@ section {
 .nameLink {
 	text-decoration: none;
 	color: #ffffff;
-
-
 }
 
 nav { 
@@ -138,13 +137,15 @@ th {
 }
 
 .bannerPort{
-	position: relative;
-	font-size: 10px;
+	position: absolute;
+	font-size: 20px;
 	height: 30px;
 	width: 150px;
-	margin-top: 118px;
+	margin-top: 107px;
 	/*margin-left: 20px;*/
 	padding: 0px;
+	text-align: center;
+	padding-top: 10px;
 	background-color: #4aaaa5;
 }
 
