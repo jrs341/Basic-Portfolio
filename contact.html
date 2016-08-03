@@ -21,13 +21,13 @@
 
 		<ul>
 
-			<li class="name"><a href = "index.html">Jason Sinn</a></li>
+			<li class="name"><a class="nameLink" href = "index.html">Jason Sinn</a></li>
 
-			<li ><a href="about.html">About</a></li> 
+			<li ><a class="navLink" href="about.html">About</a></li> 
 			
-			<li ><a href="portfolio.html">Portfolio</a></li>
+			<li ><a class="navLink" href="portfolio.html">Portfolio</a></li>
 		
-			<li ><a href="contact.html">Contact</a></li>
+			<li ><a class="navLink" href="contact.html">Contact</a></li>
 
 		</ul>
 
@@ -41,28 +41,37 @@
 				Contact
 			</header>
 
-			<form>
+			<form action="MAILTO:jrs341@me.com" method="post" enctype="text/plain">
+
 				<p class="form">
 					Name
 				</p>
-				<input type = "text" name = "Name" size="67"> 
-				<p class="form">
-					Email
-				</p>
+
+				<input type = "text" name = "Name" size="67">
+
+					<p class="form">
+					E-mail
+					</p>
+
 				<input type="text" name="email" size="67">
-				<p class="form">
+					<p class="form">
 					Message
-				</p>
+					</p>
+
 				<textarea name="message" cols="65" rows="10">
 					
 				</textarea>
-				<!--<a class="submit" href="mailto: jrs341@me.com">SUBMIT</a>-->
 
-				<input class="submit" type="submit" name="Submit">
+				<input class="submit" type="submit" value="Send">
+
+				<input class="submit" type="reset" value="Reset">
+
+				<!--<a class="submit" href="mailto: jrs341@me.com">Submit</a>-->
+
+				<!--<input class="submit" type="submit" name="Submit">-->
 
 			</form>
-			
-			
+						
 		</section>
 
 		<aside>

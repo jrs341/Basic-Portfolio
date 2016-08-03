@@ -49,6 +49,13 @@ section {
 	font-size: 35px;
 }
 
+.nameLink {
+	text-decoration: none;
+	color: #ffffff;
+
+
+}
+
 nav { 
 	padding: 10px;
 	border-bottom: 2px solid #cccccc;
@@ -62,14 +69,13 @@ ul {
 li {
 	margin: 5px;
 	display: inline;
-	color: #cccccc;
 	font-size: 15px;
 	font-family: arial Helvetica sans-serif;
 }
 
-a {
+.navLink {
 	text-decoration: none;
-	color: grey;
+	color: #cccccc;
 }
 
 .contentHead {
@@ -176,11 +182,9 @@ form {
 	width: 55px;
 	margin-top: 50px;
 	background-color:#4aaaa5;
-	font-color: #ffffff
+	color: #ffffff
 	font-family: Arial Helvetica sans-serif; 
 }
-
-
 
 footer {
 	text-align: center;
