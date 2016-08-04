@@ -6,6 +6,7 @@ html, body {
 
 }
 
+
 .page-wrap {
 	min-height: 100%;
 	margin-bottom: -75px;/*must be equal to footer height*/
@@ -74,6 +75,9 @@ li {
 	text-decoration: none;
 	color: #cccccc;
 }
+a.navLink:hover {
+	text-decoration: underline;
+}
 
 .contentHead {
 	display: block;
@@ -129,6 +133,11 @@ th {
 	margin: 5px;
 }
 
+a.socialLink:hover {
+	outline: 2px solid #cccccc;
+	outline-offset: 3px;
+}
+
 .imgPort {
 	height: 150px;
 	width: 150px;
@@ -147,22 +156,6 @@ th {
 	text-align: center;
 	padding-top: 10px;
 	background-color: #4aaaa5;
-}
-
-#hangMan {
-	
-}
-#RPGgame {
-	
-}
-#triviaGame {
-	
-}
-#rutgersInfoWidget {
-	
-}
-#rockPaperScissors {
-	
 }
 
 form {
